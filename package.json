@@ -1,28 +1,29 @@
 {
-	"private": true,
 	"name": "@masonyekta/gatsby-theme-strapi-workspace",
 	"version": "0.0.1",
+	"private": true,
 	"license": "MIT",
-	"scripts": {
-		"develop": "yarn workspace example develop",
-		"build": "yarn workspace example build",
-		"lint": "eslint . --ignore-path .gitignore --ignore-path .prettierignore --ext .ts,.tsx,.js",
-		"lint:fix": "eslint . --fix"
-	},
 	"workspaces": [
 		"gatsby-theme-strapi",
 		"example"
 	],
+	"scripts": {
+		"build": "yarn workspace example build",
+		"develop": "yarn workspace example develop",
+		"lint": "eslint . --ignore-path .gitignore --ignore-path .prettierignore --ext .ts,.tsx,.js",
+		"lint:fix": "eslint . --fix",
+		"format-package": "npx sort-package-json"
+	},
 	"devDependencies": {
-		"@tailwindcss/line-clamp": "^0.3.1",
-		"@tailwindcss/typography": "^0.5.1",
-		"autoprefixer": "^10.4.2",
-		"eslint": "^8.8.0",
-		"eslint-config-prettier": "^8.3.0",
-		"eslint-config-react-app": "^7.0.0",
+		"@tailwindcss/line-clamp": "^0.4.0",
+		"@tailwindcss/typography": "^0.5.2",
+		"autoprefixer": "^10.4.7",
+		"eslint": "^8.17.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-config-react-app": "^7.0.1",
 		"eslint-plugin-prettier": "^4.0.0",
-		"prettier": "^2.5.1",
-		"prettier-plugin-tailwindcss": "^0.1.4",
-		"tailwindcss": "^3.0.18"
+		"prettier": "^2.6.2",
+		"prettier-plugin-tailwindcss": "^0.1.11",
+		"tailwindcss": "^3.0.24"
 	}
 }
