@@ -1,3 +1,3 @@
 module.exports = {
-	plugins: [{ resolve: `gatsby-theme-strapi`, options: {} }],
+	plugins: [{ resolve: `@masonyekta/gatsby-theme-strapi`, options: {} }],
 };

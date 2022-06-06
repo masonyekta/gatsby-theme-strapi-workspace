@@ -9,7 +9,7 @@
 	},
 	"dependencies": {
 		"gatsby": "^4.15.2",
-		"gatsby-theme-strapi": "^1.0.0",
+		"@masonyekta/gatsby-theme-strapi": "^1.0.0",
 		"react": "^18.1.0",
 		"react-dom": "^18.1.0"
 	}
