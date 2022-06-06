@@ -49,4 +49,5 @@ This should change in future work with CircleCI
 
 ```shell
 npm login --scope=@OWNER --registry=https://npm.pkg.github.com
+npm publish
 ```
