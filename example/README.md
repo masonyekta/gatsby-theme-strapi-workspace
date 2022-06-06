@@ -10,7 +10,11 @@ Make sure to add a `.npmrc` file with the following content:
 
 ```shell
 @masonyekta:registry=https://npm.pkg.github.com
+// @OWNER:registry=https://npm.pkg.github.com
 ```
+
+This can be changed in future if launching the project in an organization account.
+Changing `@OWNER` with the name of the user or organization account that owns the repository
 
 ### Login to GitHub
 
