@@ -42,3 +42,12 @@ You can run the example with:
 ```shell
 yarn workspace example develop
 ```
+
+### Publish Package Locally
+
+This should change in future work with CircleCI
+
+```shell
+npm login --scope=@OWNER --registry=https://npm.pkg.github.com
+npm publish
+```
