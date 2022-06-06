@@ -1,8 +1,8 @@
 {
-	"name": "gatsby-theme-strapi-workspace",
 	"private": true,
+	"name": "@masonyekta/gatsby-theme-strapi-workspace",
 	"version": "0.0.1",
-	"license": "0BSD",
+	"license": "MIT",
 	"scripts": {
 		"develop": "yarn workspace example develop",
 		"build": "yarn workspace example build"
