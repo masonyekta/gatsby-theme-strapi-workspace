@@ -1,0 +1,14 @@
+{
+	"name": "gatsby-theme-strapi-workspace",
+	"private": true,
+	"version": "0.0.1",
+	"license": "0BSD",
+	"scripts": {
+		"develop": "yarn workspace example develop",
+		"build": "yarn workspace example build"
+	},
+	"workspaces": [
+		"gatsby-theme-strapi",
+		"example"
+	]
+}
