@@ -4,7 +4,6 @@ module.exports = async ({ graphql, actions }) => {
 	const { createPage } = actions
 
 	const pageTemplate = require.resolve(`../../templates/page.js`)
-	//const pageTemplate = path.resolve("./src/templates/page.js");
 
 	// Create a page for each "page"
 	const pagesQuery = await graphql(query.data.pages)
