@@ -2,23 +2,6 @@
 	"name": "@masonyekta/gatsby-theme-strapi",
 	"version": "1.0.0",
 	"description": "Core Strapi Gatsby Theme",
-	"author": "Mason Yekta",
-	"license": "MIT",
-	"main": "index.js",
-	"publishConfig": {
-		"registry": "https://npm.pkg.github.com/masonyekta"
-	},
-	"scripts": {
-		"build": "gatsby build",
-		"develop": "gatsby develop",
-		"start": "gatsby develop",
-		"clean": "gatsby clean"
-	},
-	"peerDependencies": {
-		"gatsby": "^4.0.0",
-		"react": "^17.0.0 || ^18.0.0",
-		"react-dom": "^17.0.0 || ^18.0.0"
-	},
 	"keywords": [
 		"gatsby",
 		"gatsby-theme",
@@ -31,7 +14,40 @@
 		"url": "https://github.com/masonyekta/gatsby-theme-strapi-workspace.git",
 		"directory": "gatsby-theme-strapi"
 	},
+	"license": "MIT",
+	"author": "Mason Yekta",
+	"main": "index.js",
+	"scripts": {
+		"build": "gatsby build",
+		"clean": "gatsby clean",
+		"develop": "gatsby develop",
+		"start": "gatsby develop"
+	},
+	"dependencies": {
+		"gatsby-plugin-gatsby-cloud": "^4.7.0",
+		"gatsby-plugin-image": "^2.6.0",
+		"gatsby-plugin-postcss": "^5.6.0",
+		"gatsby-plugin-sharp": "^4.6.0",
+		"gatsby-source-strapi": "^2.0.0",
+		"gatsby-transformer-remark": "^5.6.0",
+		"gatsby-transformer-sharp": "^4.6.0",
+		"postcss": "^8.4.6"
+	},
+	"devDependencies": {
+		"autoprefixer": "^10.4.7",
+		"@tailwindcss/line-clamp": "^0.3.1",
+		"@tailwindcss/typography": "^0.5.1",
+		"tailwindcss": "^3.0.18"
+	},
+	"peerDependencies": {
+		"gatsby": "^4.0.0",
+		"react": "^17.0.0 || ^18.0.0",
+		"react-dom": "^17.0.0 || ^18.0.0"
+	},
 	"engines": {
 		"node": ">=14.15.0"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/masonyekta"
 	}
 }

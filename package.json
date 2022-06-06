@@ -15,15 +15,11 @@
 		"format-package": "npx sort-package-json"
 	},
 	"devDependencies": {
-		"@tailwindcss/line-clamp": "^0.4.0",
-		"@tailwindcss/typography": "^0.5.2",
-		"autoprefixer": "^10.4.7",
 		"eslint": "^8.17.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-config-react-app": "^7.0.1",
 		"eslint-plugin-prettier": "^4.0.0",
 		"prettier": "^2.6.2",
-		"prettier-plugin-tailwindcss": "^0.1.11",
-		"tailwindcss": "^3.0.24"
+		"prettier-plugin-tailwindcss": "^0.1.11"
 	}
 }

@@ -1,5 +1,15 @@
-import React from "react";
+import React from "react"
+import Layout from "../components/layout"
+import Headings from "../components/headings"
 
-export default function Contact() {
-	return <div>Contact Pages Sample</div>;
+const ContactPage = () => {
+
+
+  return (
+    <Layout>
+      <Headings title="sample" />
+    </Layout>
+  )
 }
+
+export default ContactPage
