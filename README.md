@@ -5,7 +5,7 @@ A workspace for creating a Gatsby Strapi Theme.
 ```shell
 gatsby new theme https://github.com/masonyekta/gatsby-theme-strapi-workspace
 cd theme
-yarn workspace example develop
+npm run develop
 ```
 
 ## Layout
@@ -40,5 +40,5 @@ This is an example usage of the theme.
 You can run the example with:
 
 ```shell
-yarn workspace example develop
+npm run develop
 ```
