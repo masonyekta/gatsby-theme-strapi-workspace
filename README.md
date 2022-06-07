@@ -1,6 +1,6 @@
-# Gatsby Theme Strapi workspace
+# Gatsby Theme Strapi Workspace
 
-A workspace for creating a Gatsby Strapi Theme.
+A workspace for creating a Gatsby Theme for Strapi.
 
 ```shell
 gatsby new theme https://github.com/masonyekta/gatsby-theme-strapi-workspace
