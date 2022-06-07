@@ -29,15 +29,13 @@ module.exports = {
 				],
 				singleTypes: [
 					{
-						singularName: 'global',
-						queryParams: {
-							populate: {
-								favicon: '*',
-								defaultSeo: {
-									populate: '*',
-								},
-							},
-						},
+						singularName: 'setting',
+					},
+					{
+						singularName: 'header',
+					},
+					{
+						singularName: 'footer',
 					},
 				],
 			},
