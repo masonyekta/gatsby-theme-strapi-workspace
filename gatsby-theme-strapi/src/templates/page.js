@@ -3,11 +3,11 @@ import { graphql } from 'gatsby'
 import Layout from '../components/layout/layout'
 
 const PageTemplate = ({ data }) => {
-	const { title } = data.strapiPage
+	const { Title } = data.strapiPage
 
 	return (
 		<Layout>
-			<article>{title}</article>
+			<article>Title of the page: {Title}</article>
 		</Layout>
 	)
 }
