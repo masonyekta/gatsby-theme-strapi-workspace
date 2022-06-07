@@ -12,17 +12,7 @@ module.exports = {
 				accessToken: process.env.STRAPI_TOKEN,
 				collectionTypes: [
 					{
-						singularName: 'article',
-						queryParams: {
-							publicationState:
-								process.env.GATSBY_IS_PREVIEW === 'true' ? 'preview' : 'live',
-							populate: {
-								cover: '*',
-								blocks: {
-									populate: '*',
-								},
-							},
-						},
+						singularName: 'post',
 					},
 					{
 						singularName: 'page',
@@ -32,6 +22,9 @@ module.exports = {
 					},
 					{
 						singularName: 'category',
+					},
+					{
+						singularName: 'tag',
 					},
 				],
 				singleTypes: [

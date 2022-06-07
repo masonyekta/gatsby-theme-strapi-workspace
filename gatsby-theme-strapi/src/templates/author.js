@@ -2,19 +2,19 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout/layout'
 
-const PageTemplate = ({ data }) => {
-	const { title } = data.strapiPage
+const AuthorTemplate = ({ data }) => {
+	const { title } = data.strapiAuthor
 
 	return (
 		<Layout>
-			<article>Title of the page: {title}</article>
+			<article>Title of the author: {title}</article>
 		</Layout>
 	)
 }
 
 export const query = graphql`
 	query ($slug: String!) {
-		strapiPage(slug: { eq: $slug }) {
+		strapiAuthor(slug: { eq: $slug }) {
 			id
 			title
 			slug
@@ -22,4 +22,4 @@ export const query = graphql`
 	}
 `
 
-export default PageTemplate
+export default AuthorTemplate
