@@ -23,6 +23,9 @@ module.exports = {
 					{
 						singularName: 'category',
 					},
+					{
+						singularName: 'tag',
+					},
 				],
 				singleTypes: [
 					{

@@ -16,4 +16,28 @@ module.exports.data = {
 			}
 		}
 	}`,
+	// categories query
+	categories: `{
+		allStrapiCategory {
+			nodes {
+				slug
+			}
+		}
+	}`,
+	// tags query
+	tags: `{
+		allStrapiTag {
+			nodes {
+				slug
+			}
+		}
+	}`,
+	// authors query
+	authors: `{
+		allStrapiAuthor {
+			nodes {
+				slug
+			}
+		}
+	}`,
 }
