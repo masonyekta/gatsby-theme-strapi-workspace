@@ -1,11 +1,19 @@
 module.exports.data = {
+	// posts query
+	posts: `{
+		allStrapiPost {
+			nodes {
+				title
+				slug
+			}
+		}
+	}`,
+	// pages query
 	pages: `{
 		allStrapiPage {
-			edges {
-			  node {
-				Slug
-			  }
+			nodes {
+				slug
 			}
-		  }
-	  }`,
+		}
+	}`,
 }
